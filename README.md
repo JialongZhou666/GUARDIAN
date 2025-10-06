@@ -6,7 +6,7 @@ Official implementation of **["GUARDIAN: Safeguarding LLM Multi-Agent Collaborat
 
 Large Language Models (LLMs) enable intelligent agents to collaborate through multi-turn dialogues, but such collaboration introduces safety challenges, including **hallucination amplification** and **error propagation**.
 
-The figure below shows how attacks on early-stage agents or communications under the Agent-to-Agent (A2A) protocol can affect later responses, amplifying errors across agents.
+The figure below shows how attacks on early-stage agents or communications under the Agent-to-Agent ([A2A](https://github.com/a2aproject/A2A.git)) protocol can affect later responses, amplifying errors across agents.
 
 ![Examples of safety issues](./figures/demo_a2a.png)
 
