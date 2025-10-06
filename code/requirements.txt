@@ -1,0 +1,13 @@
+astunparse==1.6.3
+backoff==2.2.1
+numpy==1.22.4
+openai==0.27.6
+pandas==1.5.3
+prettytable==3.8.0
+sacrebleu==2.3.1
+human-eval
+torch==2.3.0+cu118
+torch-cluster==1.6.3+pt23cu118
+torch-geometric==2.6.1
+torch-scatter==2.1.2+pt23cu118
+torch-sparse==0.6.18+pt23cu118
