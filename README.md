@@ -33,6 +33,7 @@ We provide scripts to replicate the key experiments from our paper. Each experim
 You can test the hallucination amplification scenario using the following command:
 
 ```bash
+cd code/hallucination_amplification
 python test_acc_math_100.py > res.txt
 ```
 
@@ -47,6 +48,7 @@ from LLMLP_static import LLMLP
 You can test the agent-targeted error injection and propagation scenario using the following command:
 
 ```bash
+cd code/agent-targeted_error_injection_and_propagation
 python test_acc_math_100_agent_attack.py > res.txt
 ```
 
@@ -61,6 +63,7 @@ from LLMLP_static_agent_attack import LLMLP
 You can test the communication-targeted error injection and propagation scenario using the following command:
 
 ```bash
+cd code/communication-targeted_error_injection_and_propagation
 python test_acc_math_100.py > res.txt
 ```
 
