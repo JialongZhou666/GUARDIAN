@@ -37,7 +37,7 @@ cd code/hallucination_amplification
 python test_acc_math_100.py > res.txt
 ```
 
-By default, the code runs GUARDIAN. To switch to GUARDIAN.s, modify the run_GUARDIAN_gpt35.py file by changing the import statement:
+By default, the code runs GUARDIAN. To switch to GUARDIAN.s, modify `run_GUARDIAN_gpt35.py` by changing the import statement:
 
 ```bash
 from LLMLP_static import LLMLP
@@ -52,7 +52,7 @@ cd code/agent-targeted_error_injection_and_propagation
 python test_acc_math_100_agent_attack.py > res.txt
 ```
 
-By default, the code runs GUARDIAN. To switch to GUARDIAN.s, modify the run_GUARDIAN_gpt35_agent_attack.py file by changing the import statement:
+By default, the code runs GUARDIAN. To switch to GUARDIAN.s, modify `run_GUARDIAN_gpt35_agent_attack.py` by changing the import statement:
 
 ```bash
 from LLMLP_static_agent_attack import LLMLP
@@ -67,7 +67,7 @@ cd code/communication-targeted_error_injection_and_propagation
 python test_acc_math_100.py > res.txt
 ```
 
-By default, the code runs GUARDIAN. To switch to GUARDIAN.s, modify the run_GUARDIAN_gpt35.py file by changing the import statement:
+By default, the code runs GUARDIAN. To switch to GUARDIAN.s, modify `run_GUARDIAN_gpt35.py` by changing the import statement:
 
 ```bash
 from LLMLP_static_communication_attack import LLMLP
